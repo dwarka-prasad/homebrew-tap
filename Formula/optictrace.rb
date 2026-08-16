@@ -8,23 +8,23 @@ class Optictrace < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.0/optictrace_0.8.0_darwin_amd64.tar.gz"
-      sha256 "a32148f2b8ec5be439d7ff1e75ac6a658be4843db34b56fb92fd548ce3628fe9"
+      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.2/optictrace_0.8.2_darwin_amd64.tar.gz"
+      sha256 "b7368707b8ea82a8588539df0104447d47a093b97e352ed715fc7482f793b722"
     end
     on_arm do
-      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.0/optictrace_0.8.0_darwin_arm64.tar.gz"
-      sha256 "9e7cd11ec9b51f5e615b06d4600c769fb7efc31e93576b425e2f6c6c98fd3829"
+      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.2/optictrace_0.8.2_darwin_arm64.tar.gz"
+      sha256 "f90e9b0e5a08a1f1ee079647f93f2fe59fb346341632caabd548c7305659764c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.0/optictrace_0.8.0_linux_amd64.tar.gz"
-      sha256 "0af662da9b1e76ac0f1cdb829999d69fe8d696dc1a38b25dc29479336db700e9"
+      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.2/optictrace_0.8.2_linux_amd64.tar.gz"
+      sha256 "d9cecb4944f44718e1f5698ebb14ea8c96f0a9f6a4e41e0c2841081eda56e851"
     end
     on_arm do
-      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.0/optictrace_0.8.0_linux_arm64.tar.gz"
-      sha256 "110c5dc0e8f0812b91fbc7ea5bdc198deeedcb16ddc8f731086bd493e0ca4cda"
+      url "https://github.com/dwarka-prasad/optictrace/releases/download/v0.8.2/optictrace_0.8.2_linux_arm64.tar.gz"
+      sha256 "490aa173c6bd9e48a15049842327ae1aa3e91c7cc00e9a39510bff0066fb83e2"
     end
   end
 
