@@ -2,8 +2,9 @@
 class Optictrace < Formula
   desc "Declarative API telemetry and governance gateway"
   homepage "https://dwarka-prasad.github.io/optictrace/"
-  version "0.7.0"
   license "Apache-2.0"
+  # No `version` stanza: Homebrew derives it from the URL, and declaring
+  # it as well is flagged by `brew audit` as redundant.
 
   on_macos do
     on_intel do
